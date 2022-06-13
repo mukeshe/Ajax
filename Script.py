@@ -3,7 +3,7 @@ class script(object):
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a> Iam a powerful autofilter bot with some more featues.. ⚡💫💫💫"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+    ABOUT_TXT = """✮ 𝘔𝘠 𝘕𝘈𝘔𝘌: {}
 ✮ 𝘊𝘙𝘌𝘈𝘛𝘖𝘙: <a href=https://t.me/faisalkvr>𝗙𝗔𝗜𝗦𝗔𝗟</a>
 ✮ 𝘓𝘐𝘉𝘙𝘈𝘙𝘠: 𝘗𝘠𝘙𝘖𝘎𝘙𝘈𝘔
 ✮ 𝘓𝘈𝘕𝘎𝘜𝘈𝘎𝘌: 𝘗𝘠𝘛𝘏𝘖𝘕 3
