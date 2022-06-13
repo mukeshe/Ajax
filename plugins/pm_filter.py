@@ -414,15 +414,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝗠𝗮𝗻𝘂𝗲𝗹 𝗙𝗶𝗹𝘁𝗲𝗿', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿', callback_data='autofilter')
+            InlineKeyboardButton('𝘔𝘈𝘕𝘜𝘈𝘓 𝘍𝘐𝘓𝘛𝘌𝘙', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝘈𝘜𝘛𝘖 𝘍𝘐𝘓𝘛𝘌𝘙', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀', callback_data='coct'),
-            InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='extra'),
-            InlineKeyboardButton('CARBON', callback_data='carbon')
+            InlineKeyboardButton('𝘊𝘖𝘕𝘕𝘖𝘊𝘛𝘐𝘖𝘕𝘚', callback_data='coct'),
+            InlineKeyboardButton('𝘌𝘟𝘛𝘙𝘈 𝘔𝘖𝘋𝘌𝘚', callback_data='extra'),
+            InlineKeyboardButton('𝘊𝘈𝘙𝘉𝘖𝘕', callback_data='carbon')
             ],[
-            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
-            InlineKeyboardButton('⚚ 𝗦𝘁𝗮𝘁𝘀 ⚚', callback_data='stats')
+            InlineKeyboardButton('🏠 𝗛𝗢𝗠𝗘 🏠', callback_data='start'),
+            InlineKeyboardButton(' 𝗦𝗧𝗔𝗧𝗨𝗦 ', callback_data='stats')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -432,10 +432,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ ᴘʀɪᴠᴀᴛᴇ ʙᴏᴛ ♥️', url='t.me/AboutAadhi')
+            InlineKeyboardButton('𝘚𝘖𝘜𝘙𝘊𝘌 𝘊𝘖𝘋𝘌', url='t.me/faisalkvr')
             ],[
-            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
+            InlineKeyboardButton('🏠 𝗛𝗢𝗠𝗘 🏠', callback_data='start'),
+            InlineKeyboardButton('🔐 𝗖𝗟𝗢𝗦𝗘 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
